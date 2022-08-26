@@ -63,11 +63,10 @@ img{
 	float: left;
 }
 
-article{
-	text align: center;  
-	margin: 50 50px 30 10px;
+img:hover {
+  opacity: 0.5;
+  }
 
-}
 
 p{
 	text-shadow: 2px 2px 8px #ebebeb;
@@ -146,4 +145,28 @@ a:hover {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+.button {
+  background-color: #ff3399; /* pink */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #66ccff;} 
+.button4 {background-color: #cccc00;} 
+
+
+
+
+
+.center {
+  text-align: center;
+  border: 3px solid black;
+}
 
