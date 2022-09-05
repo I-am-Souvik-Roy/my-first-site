@@ -8,11 +8,46 @@ body,html{
   background-size: cover;
 }
 
+ 
 header{
 	width: 100%;
 	height: 70px;
 	background-color: #282828;
 	box-shadow: 10px 10px 8px 10px #888888;
+}
+
+div input{
+  padding: 8px;
+  margin-top: -6px;
+  margin-right: 18px;
+  font-size: 15px;
+  border: none;
+  float: right;
+  color: black;
+  box-shadow: 5px 5px 4px 5px #888888;
+  
+}
+
+div input:hover{
+  
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 14px;
+  
+}
+div form input button i fa fa-search{
+  float: right;
+  padding: 8px 12px;
+  margin-top: -4px;
+  margin-right: 18px;
+  background: #39ca74;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+
+  box-shadow: 10px 10px 8px 10px #888888;
+
 }
 
 h1{
@@ -61,6 +96,7 @@ img{
 	width: 30%;
 	margin-top: -10px;
 	float: left;
+	box-shadow: 10px 10px 8px 10px #888888;
 }
 
 img:hover {
@@ -76,6 +112,7 @@ p{
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
+  box-shadow: 5px 5px 8px 5px #888888;
 }
 
 a:hover {
@@ -150,6 +187,7 @@ a:hover {
   background-color: #ff3399; /* pink */
   border: none;
   color: white;
+  box-shadow: 10px 10px 8px 10px #888888;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -160,6 +198,10 @@ a:hover {
 .button2 {background-color: #008CBA;} /* Blue */
 .button3 {background-color: #66ccff;} 
 .button4 {background-color: #cccc00;} 
+.button5 {background-color: #000000; color: #ffcc00; margin: 30 50px 20 70px;}
+.button6 {background-color: #ff3300; margin: 30 60px 20 -20px;} 
+.button7 {background: linear-gradient(to bottom, #00ff99 0%, #0066cc 100%); margin: 30 50px 20 -35px;}
+
 
 
 
@@ -168,5 +210,16 @@ a:hover {
 .center {
   text-align: center;
   border: 3px solid black;
+  margin: 30 80px 20 170px;
+  box-shadow: 10px 10px 8px 10px #888888;
+ 
+}
+
+div p{
+	 margin: 30 50px 20 70px;
+}
+
+h2{
+	 box-shadow: 5px 5px 8px 5px #888888;
 }
 
